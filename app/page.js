@@ -47,7 +47,7 @@ const Home = () => {
     price: "Rs. 1099",
     time: "/images/day_package_time.webp",
     readmore: true,
-    description: `Perfect for a quick adventure day outing near Bangalore, this package includes welcome drinks, lunch, and hi-tea snacks with adventure activities for both adults and kids. Ideal for family day outings or corporate team-building events at resorts near Magadi Road.`,
+    description: `Perfect for a quick adventure day outing near Bangalore, this package includes welcome drinks, lunch, and hi-tea snacks with adventure activities for both adults and kids. Ideal for family day outings or corporate team-building events at resorts near Kanakapura Road.`,
     inclusions: [
       {
         img: "/images/icons/drink.svg",
@@ -72,7 +72,7 @@ const Home = () => {
     price: "Rs. 1299",
     readmore: true,
     time: "/images/full_day_package_time.webp",
-    description: `Enjoy a full day of fun and adventure at one of the best adventure resorts in Bangalore. This package offers breakfast, lunch, hi-tea snacks, and outdoor activities. Perfect for those looking for a day outing at family-friendly resorts near Nelamangala.`,
+    description: `Enjoy a full day of fun and adventure at one of the best adventure resorts in Bangalore. This package offers breakfast, lunch, hi-tea snacks, and outdoor activities. Perfect for those looking for a day outing at family-friendly resorts near Bangalore.`,
     inclusions: [
       {
         img: "/images/icons/drink.svg",
