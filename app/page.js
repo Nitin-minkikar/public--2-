@@ -67,6 +67,7 @@ const Home = () => {
       },
     ],
   };
+  
   const fullDayPackage = {
     name: "Starry Day Escape",
     price: "Rs. 1299",
