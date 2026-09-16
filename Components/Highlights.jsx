@@ -147,7 +147,7 @@ function Highlights() {
                     alt={ele.name}
                     loading="lazy"
                     fetchPriority="low"
-                    class="w-full  h-[200px] select-none object-cover custom-clip"
+                    className="w-full  h-[200px] select-none object-cover custom-clip"
                   />
                   <img
                     src={ele.icon}

@@ -12,10 +12,10 @@ import CommonHeading from "./ReuseComponent/CommonHeading";
 function GalleryIntro(props) {
   const images = [
     "/images/gallery/corporate8.webp",
-    "/images/gallery/swimming_pool_4.webp",
-    "/images/gallery/swimming_pool_5.webp",
+    // "/images/gallery/swimming_pool_4.webp",
+    // "/images/gallery/swimming_pool_5.webp",
     "/images/gallery/activities3.webp",
-    "/images/gallery/activities4.webp",
+    // "/images/gallery/activities4.webp",
     "/images/gallery/activities5.webp",
     // "/images/gallery/activities6.webp",
     "/images/gallery/activities7.webp",

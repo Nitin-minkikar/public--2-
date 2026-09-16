@@ -9,39 +9,39 @@ const imageCategories = [
   {
     heading: "Stay",
 
-    images:[
+    images: [
       "/images/gallery/stay1.webp",
       "/images/gallery/stay2.webp",
       "/images/gallery/stay3.webp",
       "/images/gallery/stay4.webp",
       "/images/gallery/stay5.webp",
       "/images/gallery/stay6.webp",
-   
+
       "/images/gallery/stay8.webp",
     ]
   },
 
   {
     heading: "Swimming Pool",
-  
-     images: [
+
+    images: [
       "/images/gallery/swimming_pool_6.webp",
       "/images/gallery/swimming_pool_2.webp",
       "/images/gallery/swimming_pool_3.webp",
-      "/images/gallery/swimming_pool_4.webp",
-      "/images/gallery/swimming_pool_5.webp",
+      // "/images/gallery/swimming_pool_4.webp",
+      // "/images/gallery/swimming_pool_5.webp",
       "/images/gallery/swimming_pool_7.webp",
       "/images/gallery/swimming_pool_1.webp",
     ],
   },
   {
     heading: "Activities",
-  
-    images:[
+
+    images: [
       "/images/gallery/activities1.webp",
       "/images/gallery/activities2.webp",
       "/images/gallery/activities3.webp",
-      "/images/gallery/activities4.webp",
+      // "/images/gallery/activities4.webp",
       "/images/gallery/activities5.webp",
       // "/images/gallery/activities6.webp",
       "/images/gallery/activities7.webp",
@@ -58,19 +58,19 @@ const imageCategories = [
     ]
   },
 
- {
-  heading:"Corporate Events",
-  images: [
-    "/images/gallery/corporate1.webp",
-    "/images/gallery/corporate2.webp",
-    "/images/gallery/corporate3.webp",
-    "/images/gallery/corporate4.webp",
-    "/images/gallery/corporate5.webp",
-    "/images/gallery/corporate6.webp",
-    "/images/gallery/corporate7.webp",
-  ],
+  {
+    heading: "Corporate Events",
+    images: [
+      "/images/gallery/corporate1.webp",
+      "/images/gallery/corporate2.webp",
+      "/images/gallery/corporate3.webp",
+      "/images/gallery/corporate4.webp",
+      "/images/gallery/corporate5.webp",
+      "/images/gallery/corporate6.webp",
+      "/images/gallery/corporate7.webp",
+    ],
 
- },
+  },
   {
     heading: "Restuarant",
     images: [

@@ -82,9 +82,7 @@ function Footer() {
               </div>
 
               <p>
-                Welcome to The Starry Nights Located just 28 km from Bangalore,
-                off Magadi Road or Tumkur Road, with close proximity to
-                Tavarekere, Nelamangala, and Peenya Industrial Area.
+                Welcome to The Starry Nights Located just 25 km from Bangalore, on Kanakapura Road, Bengaluru.
               </p>
               <h1 className="font-medium text-xl md:text-lg pt-3 md:pt-4">
                 {" "}
@@ -100,9 +98,9 @@ function Footer() {
                   <Link href="/best-resorts-in-nelamangala">  night stay resorts in bangalore</Link>
                 </h2>
 
-                <h2 className="pt-1  hover:text-blue-400  "> 
-                <Link href={'/day-outing-resorts-in-bangalore'}>  resorts close to bangalore </Link>
-                  </h2>
+                <h2 className="pt-1  hover:text-blue-400  ">
+                  <Link href={'/day-outing-resorts-in-bangalore'}>  resorts close to bangalore </Link>
+                </h2>
                 <h2 className="pt-1  hover:text-blue-400  ">  <Link href="/best-resorts-in-nelamangala">  resorts in bangalore</Link></h2>
                 <h2 className="pt-1  hover:text-blue-400  "> <Link href="/resorts-with-activities-in-bangalore"> resort with activities in bangalore</Link> </h2>
               </div>
@@ -232,8 +230,9 @@ function Footer() {
 
               <p className="md:pl-2 text-yellow_c">
                 {" "}
-                ©  {new Date().getFullYear()} The Starry Nights All rights
-                reserved
+                {/* ©  {new Date().getFullYear()} The Starry Nights All rights
+                reserved */}
+                ©  2026 - 2028 The Starry Nights All rights reserved
               </p>
             </div>{" "}
           </div>
