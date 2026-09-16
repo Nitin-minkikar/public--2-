@@ -2,8 +2,8 @@
 
 import GalleryImageComponent from "@/Components/GalleryImageComponent";
 import React, { useState, useCallback, useEffect } from "react";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 const imageCategories = [
   {
@@ -151,14 +151,14 @@ function GalleryPage() {
         handleDisplayImage={handleDisplayImage}
       />
 
-      {openModal && currentIndex.index !== null && (
+      {openModal && currentIndex.index !== null && currentIndex.serial !== null && (
         <Lightbox
-          mainSrc={getImageUrl()}
-          nextSrc={getImageUrl()}
-          prevSrc={getImageUrl()}
-          onCloseRequest={handleClose}
-          onMovePrevRequest={handlePrev}
-          onMoveNextRequest={handleNext}
+          open={openModal}
+          close={handleClose}
+          index={currentIndex.index}
+          slides={
+            imageCategories[currentIndex.serial]?.images?.map((src) => ({ src })) || []
+          }
         />
       )}
     </div>

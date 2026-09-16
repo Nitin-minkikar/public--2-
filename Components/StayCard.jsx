@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 import { v4 as uuidv4 } from "uuid";
 import { IoMdAdd } from "react-icons/io";
@@ -139,12 +139,10 @@ function StayCard({ item }) {
 
       {openModal && currentIndex !== null && (
         <Lightbox
-          mainSrc={getImageUrl()}
-          nextSrc={item.images[(currentIndex + 1) % item.images.length]}
-          prevSrc={item.images[(currentIndex - 1 + item.images.length) % item.images.length]}
-          onCloseRequest={handleClose}
-          onMovePrevRequest={handlePrev}
-          onMoveNextRequest={handleNext}
+          open={openModal}
+          close={handleClose}
+          index={currentIndex}
+          slides={item?.images?.map((src) => ({ src })) || []}
         />
       )}
     </div>
