@@ -22,7 +22,7 @@ function BannerSlider({ images }) {
 
 
   return (
-    <div className="homepage_banner   relative">
+    <div className="homepage_banner pt-[45px] md:pt-[65px] lg:pt-0 relative">
    
       <Swiper
         autoplay={{
@@ -43,7 +43,7 @@ function BannerSlider({ images }) {
         {images?.map((ele, index) => (
           <SwiperSlide key={uuidv4()}>
             <div className="w-full banner_oval_mask  max-h-[1000px] md:max-h-[700px] object-cover   lg:max-h-[1000px] ">
-              <picture>
+              <picture className="block w-full">
                 <source
                   media="(min-width: 1024px)"
                   srcSet={ele.img}
