@@ -220,9 +220,6 @@ function Footer() {
 
         <div className="flex items-end mt-4 md:mt-[-170px] xl:mt-[-200px]">
           <div className=" border-t  md:border-none font-light text-sm lg:w-[77%] lg:ml-[5%] mx-auto md:whitespace-nowrap	 md:mt-5  pt-2 pb-2 ">
-            <p className="w-max ml-auto text-white">
-              Digital Marketing Partner - Vivacious Destinations.
-            </p>
             <div className="md:flex  justify-evenly	items-center  text-white  text-center 	 ">
               <div className="w-full hidden md:block h-[1px] bg-[#BBB9D0] opacity-50">
                 {" "}
