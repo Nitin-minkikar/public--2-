@@ -137,8 +137,7 @@ function Footer() {
                 {" "}
                 <span className="font-medium"> Address : </span>
                 <a href="https://maps.app.goo.gl/hN8AuMZbfMe99Hfi8">
-                  Ravuthanahalli, kithanahalli post Dasanapura Hobli, Bangalore
-                  North, Bangalore 562130{" "}
+                  Sy no 165/6 Nettigere, Bolare Post , Uttarahalli Hobli, Kanakapura Main Road Bangalore South, Bangalore, 560116{" "}
                 </a>{" "}
               </p>
 
