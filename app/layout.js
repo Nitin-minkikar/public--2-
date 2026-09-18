@@ -119,10 +119,10 @@ export default function RootLayout({ children }) {
                   address: {
                     "@type": "PostalAddress",
                     streetAddress:
-                      "Ravuthanahalli, kithanahalli post Dasanapura Hobli, Bangalore North",
+                      "Sy no 165/6 Nettigere, Bolare Post , Uttarahalli Hobli, Kanakapura Main Road Bangalore South",
                     addressLocality: "Bengaluru",
                     addressRegion: "KA",
-                    postalCode: "562130",
+                    postalCode: "560116",
                     addressCountry: "IN",
                   },
                   telephone: "+91-8867352400",
@@ -218,10 +218,10 @@ export default function RootLayout({ children }) {
               address: {
                 "@type": "PostalAddress",
                 streetAddress:
-                  "Ravuthanahalli, kithanahalli post Dasanapura Hobli, Bangalore North,",
-                addressLocality: "Nelamangala",
+                  "Sy no 165/6 Nettigere, Bolare Post , Uttarahalli Hobli, Kanakapura Main Road Bangalore South,",
+                addressLocality: "Bengaluru",
                 addressRegion: "Karnataka",
-                postalCode: "562130",
+                postalCode: "560116",
                 addressCountry: "IN",
               },
               telephone: "+918867352400",
